@@ -35,24 +35,24 @@
   20. rf_001_001 (10)
   ... 1022 variables en total
 * Variables más importantes post FEhist Reduccion dimensionalidad con canaritos
-  1. rf_010_007
+  1. rf_010_007 (1)
   2. mcaja_ahorro
   3. ctrx_quarter_normalizado
   4. ctrx_quarter
   5. ctrx_quarter_normalizado_lag1
   6. cdescubierto_preacordado_delta2
   7. vm_status01
-  8. rf_006_005
-  9. rf_012_007
+  8. rf_006_005 (2)
+  9. rf_012_007 (3)
   10. ctarjeta_visa_transacciones
   11. cproductos_delta2
   12. ctrx_quarter_lag1
   13. mtarjeta_visa_consumo
-  14. rf_016_005
+  14. rf_016_005 (4)
   15. mcuentas_saldo
-  16. rf_008_006
-  17. rf_015_005
-  18. rf_011_013
+  16. rf_008_006 (5)
+  17. rf_015_005 (6)
+  18. rf_011_013 (7)
   19. cpayroll_trx
   20. mpayroll
   ... 379 variables en total
