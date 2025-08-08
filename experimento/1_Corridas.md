@@ -69,9 +69,21 @@
   * 60.107
 * Conclusión: El Feature Engineering Random Forest aporta una mejora de entre 0.6 y ~1.7 puntos en la métrica de ganancia.
 
-### `003_950_WorkFlow_01_senior`: Corrida con el Feature Engineering Random Forest activado, pero modificando los parámetros de `Num_iterations` y `Num_leaves` para determinar si estas variaciones aportan mayor ganancia. Semilla `163393`
+
+### `003_950_WorkFlow_01_senior`: Misma corrida que la primera pero dejando valor default del script senior para `Min_data_in_leaf`, para determinar si esta variación aporta mayor ganancia.
+  * Semilla `163393`
+  * Min_data_in_leaf: 100
+  * Feature Engineering Random Forest activado.
 
 
 
 
-## a
+
+
+
+### ....Corrida con el Feature Engineering Random Forest activado, pero modificando los parámetros de `Num_iterations` y `Num_leaves` para determinar si estas variaciones aportan mayor ganancia. Semilla `163393`
+
+
+
+
+## 
