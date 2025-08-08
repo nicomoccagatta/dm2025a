@@ -3,7 +3,7 @@
   * Semilla `163393`
   * Num_iterations: 20
   * Num_leaves: 16
-  * Min_data_in_leaf: 1000
+  * Min_data_in_leaf: 1000 (como dice la diapositiva)
   * Feature_fraction_bynode: 0.2
   * Feature Engineering Random Forest activado.
 * Ganancias obtenidas:
@@ -72,12 +72,35 @@
 
 ### `003_950_WorkFlow_01_senior`: Misma corrida que la primera pero dejando valor default del script senior para `Min_data_in_leaf`, para determinar si esta variación aporta mayor ganancia.
   * Semilla `163393`
-  * Min_data_in_leaf: 100
+  * Min_data_in_leaf: 100 (como venia en el script senior)
   * Feature Engineering Random Forest activado.
-
-
-
-
+* Ganancias obtenidas:
+  * 61.547
+  * 60.767
+  * 61.207
+  * 62.007
+  * 60.897
+* Variables más importantes previo a la FEhist Reduccion dimensionalidad con canaritos
+  1. rf_015_006 (1)
+  2. rf_001_005 (2)
+  3. ctrx_quarter_normalizado
+  4. mpayroll_sobre_edad
+  5. rf_019_005 (3)
+  6. rf_010_001 (4)
+  7. mprestamos_personales
+  8. mpasivos_margen
+  9. cpayroll_trx
+  10. rf_003_008 (5)
+  11. mcuentas_saldo
+  12. rf_010_002 (6)
+  13. mtarjeta_visa_consumo
+  14. rf_020_001 (7)
+  15. mcaja_ahorro
+  16. vm_status01
+  17. mcomisiones_otras
+  18. mrentabilidad_annual_lag2
+  19. vm_msaldototal
+  20. mactivos_margen
 
 
 
