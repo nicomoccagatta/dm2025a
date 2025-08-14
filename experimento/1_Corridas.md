@@ -57,6 +57,12 @@
   20. mpayroll
   ... 379 variables en total
 
+* exp
+  * 95000001
+  * 9500002
+  * 9500003
+  * 9500004
+  * 9500005
 
 ### `002_950_WorkFlow_01_senior`: Misma corrida que la anterior pero con el Feature Engineering Random Forest apagado, para determinar las ganancias obtenidas sin la utilización del mismo.
   * Semilla `163393`
@@ -69,6 +75,12 @@
   * 60.107
 * Conclusión: El Feature Engineering Random Forest aporta una mejora de entre 0.6 y ~1.7 puntos en la métrica de ganancia.
 
+* exp
+  * 95000002
+  * 9500012
+  * 9500013
+  * 9500014
+  * 9500015
 
 ### `003_950_WorkFlow_01_senior`: Misma corrida que la primera pero dejando valor default del script senior para `Min_data_in_leaf`, para determinar si esta variación aporta mayor ganancia.
   * Semilla `163393`
